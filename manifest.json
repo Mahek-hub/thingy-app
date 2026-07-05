@@ -1,14 +1,15 @@
 {
   "name": "Thingy",
   "short_name": "Thingy",
-  "description": "Home item tracker",
-  "start_url": "/",
+  "description": "Thingy home item tracker app",
+  "id": "/thingy-app/",
+  "start_url": "/thingy-app/",
+  "scope": "/thingy-app/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#F7F5F2",
   "theme_color": "#222220",
   "icons": [
-    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/thingy-app/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
